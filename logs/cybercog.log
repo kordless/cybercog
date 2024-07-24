@@ -1,0 +1,747 @@
+2024-07-24 01:48:19,786 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 01:48:19,796 - root - INFO - Loaded function: browser
+2024-07-24 01:48:19,800 - root - INFO - Loaded function: calculate
+2024-07-24 01:48:19,808 - root - INFO - Loaded function: cat_file
+2024-07-24 01:48:19,815 - root - INFO - Loaded function: change_working_directory
+2024-07-24 01:48:19,829 - root - INFO - Loaded function: clear_screen
+2024-07-24 01:48:20,026 - root - INFO - Loaded function: create_github_repo
+2024-07-24 01:48:20,178 - root - INFO - Loaded function: filesystem
+2024-07-24 01:48:20,188 - root - INFO - Loaded function: get_project_files
+2024-07-24 01:48:20,197 - root - INFO - Loaded function: git_branch
+2024-07-24 01:48:20,208 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 01:48:20,218 - root - INFO - Loaded function: git_diff
+2024-07-24 01:48:20,229 - root - INFO - Loaded function: git_pull
+2024-07-24 01:48:20,239 - root - INFO - Loaded function: git_pull_request
+2024-07-24 01:48:20,248 - root - INFO - Loaded function: git_stash
+2024-07-24 01:48:20,260 - root - INFO - Loaded function: git_status
+2024-07-24 01:48:20,268 - root - INFO - Loaded function: help
+2024-07-24 01:48:20,276 - root - INFO - Loaded function: install_package
+2024-07-24 01:48:20,291 - root - INFO - Loaded function: manage_app_container
+2024-07-24 01:48:20,304 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 01:48:20,428 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 01:48:20,437 - root - INFO - Loaded function: run_python_file
+2024-07-24 01:48:20,446 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 01:48:20,459 - root - INFO - Loaded function: scan_repository
+2024-07-24 01:48:20,532 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 01:48:20,544 - root - INFO - Loaded function: scan_repository
+2024-07-24 01:48:20,557 - root - INFO - Loaded function: search_file
+2024-07-24 01:48:20,571 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 01:48:20,582 - root - INFO - Loaded function: set_github_token
+2024-07-24 01:48:20,591 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 01:49:43,535 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 01:49:43,536 - root - INFO - Loaded function: browser
+2024-07-24 01:49:43,539 - root - INFO - Loaded function: calculate
+2024-07-24 01:49:43,541 - root - INFO - Loaded function: cat_file
+2024-07-24 01:49:43,544 - root - INFO - Loaded function: change_working_directory
+2024-07-24 01:49:43,548 - root - INFO - Loaded function: clear_screen
+2024-07-24 01:49:43,673 - root - INFO - Loaded function: create_github_repo
+2024-07-24 01:49:43,807 - root - INFO - Loaded function: filesystem
+2024-07-24 01:49:43,811 - root - INFO - Loaded function: get_project_files
+2024-07-24 01:49:43,814 - root - INFO - Loaded function: git_branch
+2024-07-24 01:49:43,818 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 01:49:43,820 - root - INFO - Loaded function: git_diff
+2024-07-24 01:49:43,823 - root - INFO - Loaded function: git_pull
+2024-07-24 01:49:43,826 - root - INFO - Loaded function: git_pull_request
+2024-07-24 01:49:43,828 - root - INFO - Loaded function: git_stash
+2024-07-24 01:49:43,830 - root - INFO - Loaded function: git_status
+2024-07-24 01:49:43,832 - root - INFO - Loaded function: help
+2024-07-24 01:49:43,834 - root - INFO - Loaded function: install_package
+2024-07-24 01:49:43,840 - root - INFO - Loaded function: manage_app_container
+2024-07-24 01:49:43,845 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 01:49:43,926 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 01:49:43,928 - root - INFO - Loaded function: run_python_file
+2024-07-24 01:49:43,930 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 01:49:43,933 - root - INFO - Loaded function: scan_repository
+2024-07-24 01:49:43,988 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 01:49:43,990 - root - INFO - Loaded function: scan_repository
+2024-07-24 01:49:43,993 - root - INFO - Loaded function: search_file
+2024-07-24 01:49:43,997 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 01:49:43,999 - root - INFO - Loaded function: set_github_token
+2024-07-24 01:49:44,001 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 01:50:16,248 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 01:50:20,536 - root - INFO - Initial length of messages: 1
+2024-07-24 01:50:20,537 - root - INFO - Total characters in all messages: 2
+2024-07-24 01:50:21,130 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-07-24 01:50:21,131 - root - ERROR - Unable to generate Anthropic ChatCompletion response: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tools: Tool names must be unique.'}}
+2024-07-24 01:50:22,574 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-07-24 01:50:22,574 - root - ERROR - Unable to generate Anthropic ChatCompletion response: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tools: Tool names must be unique.'}}
+2024-07-24 01:50:24,115 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-07-24 01:50:24,116 - root - ERROR - Unable to generate Anthropic ChatCompletion response: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tools: Tool names must be unique.'}}
+2024-07-24 01:50:24,120 - util - ERROR - Error: RetryError[<Future at 0x205e9fbe4d0 state=finished raised BadRequestError>]
+2024-07-24 01:50:24,132 - util - ERROR - Traceback (most recent call last):
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "C:\Users\kordl\Code\cybercog\aifunc.py", line 78, in anthropic_chat_completion_request
+    response = await client.messages.create(
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\anthropic\resources\messages.py", line 1864, in create
+    return await self._post(
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\anthropic\_base_client.py", line 1826, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\anthropic\_base_client.py", line 1519, in request
+    return await self._request(
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\anthropic\_base_client.py", line 1620, in _request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tools: Tool names must be unique.'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kordl\Code\cybercog\main.py", line 79, in process_shell_query
+    success, results = await ai(username=username, query=query, anthropic_token=anthropic_token, history=conversation_history)
+  File "C:\Users\kordl\Code\cybercog\aifunc.py", line 112, in ai
+    chat_response = await anthropic_chat_completion_request(messages=messages, anthropic_token=anthropic_token, tools=tools)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\kordl\miniconda3\envs\webwright\lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x205e9fbe4d0 state=finished raised BadRequestError>]
+
+2024-07-24 09:19:43,291 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:19:43,296 - root - INFO - Loaded function: browser
+2024-07-24 09:19:43,300 - root - INFO - Loaded function: calculate
+2024-07-24 09:19:43,303 - root - INFO - Loaded function: cat_file
+2024-07-24 09:19:43,305 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:19:43,313 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:19:43,550 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:19:43,752 - root - INFO - Loaded function: filesystem
+2024-07-24 09:19:43,757 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:19:43,763 - root - INFO - Loaded function: git_branch
+2024-07-24 09:19:43,768 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:19:43,773 - root - INFO - Loaded function: git_diff
+2024-07-24 09:19:43,777 - root - INFO - Loaded function: git_pull
+2024-07-24 09:19:43,782 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:19:43,785 - root - INFO - Loaded function: git_stash
+2024-07-24 09:19:43,788 - root - INFO - Loaded function: git_status
+2024-07-24 09:19:43,791 - root - INFO - Loaded function: help
+2024-07-24 09:19:43,793 - root - INFO - Loaded function: install_package
+2024-07-24 09:19:43,802 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:19:43,808 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:19:43,989 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:19:43,994 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:19:43,998 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:19:44,001 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:19:44,078 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:19:44,082 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:19:44,085 - root - INFO - Loaded function: search_file
+2024-07-24 09:19:44,090 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:19:44,092 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:19:44,095 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:19:44,446 - anthropic._base_client - INFO - Retrying request to /v1/messages in 0.931401 seconds
+2024-07-24 09:19:45,380 - anthropic._base_client - INFO - Retrying request to /v1/messages in 1.505111 seconds
+2024-07-24 09:24:49,228 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:24:49,231 - root - INFO - Loaded function: browser
+2024-07-24 09:24:49,234 - root - INFO - Loaded function: calculate
+2024-07-24 09:24:49,238 - root - INFO - Loaded function: cat_file
+2024-07-24 09:24:49,240 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:24:49,247 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:24:49,419 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:24:49,578 - root - INFO - Loaded function: filesystem
+2024-07-24 09:24:49,582 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:24:49,587 - root - INFO - Loaded function: git_branch
+2024-07-24 09:24:49,592 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:24:49,596 - root - INFO - Loaded function: git_diff
+2024-07-24 09:24:49,600 - root - INFO - Loaded function: git_pull
+2024-07-24 09:24:49,604 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:24:49,608 - root - INFO - Loaded function: git_stash
+2024-07-24 09:24:49,612 - root - INFO - Loaded function: git_status
+2024-07-24 09:24:49,616 - root - INFO - Loaded function: help
+2024-07-24 09:24:49,618 - root - INFO - Loaded function: install_package
+2024-07-24 09:24:49,626 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:24:49,633 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:24:49,793 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:24:49,799 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:24:49,804 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:24:49,809 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:24:49,877 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:24:49,881 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:24:49,884 - root - INFO - Loaded function: search_file
+2024-07-24 09:24:49,890 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:24:49,892 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:24:49,895 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:24:51,128 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:25:46,990 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:25:46,993 - root - INFO - Loaded function: browser
+2024-07-24 09:25:46,996 - root - INFO - Loaded function: calculate
+2024-07-24 09:25:47,000 - root - INFO - Loaded function: cat_file
+2024-07-24 09:25:47,001 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:25:47,008 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:25:47,179 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:25:47,331 - root - INFO - Loaded function: filesystem
+2024-07-24 09:25:47,335 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:25:47,339 - root - INFO - Loaded function: git_branch
+2024-07-24 09:25:47,343 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:25:47,346 - root - INFO - Loaded function: git_diff
+2024-07-24 09:25:47,350 - root - INFO - Loaded function: git_pull
+2024-07-24 09:25:47,352 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:25:47,355 - root - INFO - Loaded function: git_stash
+2024-07-24 09:25:47,358 - root - INFO - Loaded function: git_status
+2024-07-24 09:25:47,361 - root - INFO - Loaded function: help
+2024-07-24 09:25:47,362 - root - INFO - Loaded function: install_package
+2024-07-24 09:25:47,369 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:25:47,374 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:25:47,496 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:25:47,499 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:25:47,502 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:25:47,506 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:25:47,571 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:25:47,573 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:25:47,577 - root - INFO - Loaded function: search_file
+2024-07-24 09:25:47,581 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:25:47,583 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:25:47,586 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:25:48,979 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:27:21,308 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:27:21,313 - root - INFO - Loaded function: browser
+2024-07-24 09:27:21,328 - root - INFO - Loaded function: calculate
+2024-07-24 09:27:21,342 - root - INFO - Loaded function: cat_file
+2024-07-24 09:27:21,349 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:27:21,356 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:27:21,507 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:27:21,662 - root - INFO - Loaded function: filesystem
+2024-07-24 09:27:21,665 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:27:21,669 - root - INFO - Loaded function: git_branch
+2024-07-24 09:27:21,674 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:27:21,677 - root - INFO - Loaded function: git_diff
+2024-07-24 09:27:21,681 - root - INFO - Loaded function: git_pull
+2024-07-24 09:27:21,684 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:27:21,686 - root - INFO - Loaded function: git_stash
+2024-07-24 09:27:21,689 - root - INFO - Loaded function: git_status
+2024-07-24 09:27:21,691 - root - INFO - Loaded function: help
+2024-07-24 09:27:21,692 - root - INFO - Loaded function: install_package
+2024-07-24 09:27:21,701 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:27:21,708 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:27:21,880 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:27:21,883 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:27:21,888 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:27:21,891 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:27:21,977 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:27:21,984 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:27:21,989 - root - INFO - Loaded function: search_file
+2024-07-24 09:27:21,993 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:27:21,996 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:27:22,000 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:27:23,493 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:29:23,318 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:29:23,321 - root - INFO - Loaded function: browser
+2024-07-24 09:29:23,325 - root - INFO - Loaded function: calculate
+2024-07-24 09:29:23,328 - root - INFO - Loaded function: cat_file
+2024-07-24 09:29:23,330 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:29:23,338 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:29:23,463 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:29:23,613 - root - INFO - Loaded function: filesystem
+2024-07-24 09:29:23,617 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:29:23,620 - root - INFO - Loaded function: git_branch
+2024-07-24 09:29:23,625 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:29:23,628 - root - INFO - Loaded function: git_diff
+2024-07-24 09:29:23,632 - root - INFO - Loaded function: git_pull
+2024-07-24 09:29:23,634 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:29:23,636 - root - INFO - Loaded function: git_stash
+2024-07-24 09:29:23,640 - root - INFO - Loaded function: git_status
+2024-07-24 09:29:23,642 - root - INFO - Loaded function: help
+2024-07-24 09:29:23,645 - root - INFO - Loaded function: install_package
+2024-07-24 09:29:23,652 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:29:23,658 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:29:23,791 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:29:23,794 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:29:23,797 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:29:23,801 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:29:23,878 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:29:23,882 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:29:23,885 - root - INFO - Loaded function: search_file
+2024-07-24 09:29:23,891 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:29:23,893 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:29:23,896 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:29:23,898 - root - INFO - Loaded function: calculate
+2024-07-24 09:29:25,504 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:29:41,833 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:29:41,836 - root - INFO - Loaded function: browser
+2024-07-24 09:29:41,839 - root - INFO - Loaded function: calculate
+2024-07-24 09:29:41,841 - root - INFO - Loaded function: cat_file
+2024-07-24 09:29:41,843 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:29:41,848 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:29:41,991 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:29:42,140 - root - INFO - Loaded function: filesystem
+2024-07-24 09:29:42,144 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:29:42,148 - root - INFO - Loaded function: git_branch
+2024-07-24 09:29:42,152 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:29:42,156 - root - INFO - Loaded function: git_diff
+2024-07-24 09:29:42,159 - root - INFO - Loaded function: git_pull
+2024-07-24 09:29:42,163 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:29:42,165 - root - INFO - Loaded function: git_stash
+2024-07-24 09:29:42,168 - root - INFO - Loaded function: git_status
+2024-07-24 09:29:42,171 - root - INFO - Loaded function: help
+2024-07-24 09:29:42,172 - root - INFO - Loaded function: install_package
+2024-07-24 09:29:42,182 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:29:42,188 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:29:42,354 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:29:42,358 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:29:42,361 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:29:42,364 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:29:42,438 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:29:42,441 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:29:42,445 - root - INFO - Loaded function: search_file
+2024-07-24 09:29:42,450 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:29:42,452 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:29:42,455 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:29:42,457 - root - INFO - Loaded function: calculate
+2024-07-24 09:29:43,846 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:34:45,803 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:34:45,807 - root - INFO - Loaded function: browser
+2024-07-24 09:34:45,811 - root - INFO - Loaded function: calculate
+2024-07-24 09:34:45,815 - root - INFO - Loaded function: cat_file
+2024-07-24 09:34:45,816 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:34:45,822 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:34:46,089 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:34:46,235 - root - INFO - Loaded function: filesystem
+2024-07-24 09:34:46,241 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:34:46,246 - root - INFO - Loaded function: git_branch
+2024-07-24 09:34:46,252 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:34:46,255 - root - INFO - Loaded function: git_diff
+2024-07-24 09:34:46,260 - root - INFO - Loaded function: git_pull
+2024-07-24 09:34:46,265 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:34:46,268 - root - INFO - Loaded function: git_stash
+2024-07-24 09:34:46,272 - root - INFO - Loaded function: git_status
+2024-07-24 09:34:46,277 - root - INFO - Loaded function: help
+2024-07-24 09:34:46,280 - root - INFO - Loaded function: install_package
+2024-07-24 09:34:46,294 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:34:46,303 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:34:46,495 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:34:46,499 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:34:46,502 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:34:46,506 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:34:46,587 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:34:46,592 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:34:46,596 - root - INFO - Loaded function: search_file
+2024-07-24 09:34:46,601 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:34:46,603 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:34:46,607 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:34:46,611 - root - INFO - Loaded function: calculate
+2024-07-24 09:34:47,756 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:37:22,157 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:37:42,601 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:37:42,601 - root - INFO - Added C:\Users\kordl\Code\cybercog\tools to sys.path
+2024-07-24 09:37:42,601 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:37:43,475 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:37:43,486 - root - INFO - Loaded function: browser
+2024-07-24 09:37:43,500 - root - INFO - Loaded function: calculate
+2024-07-24 09:37:43,515 - root - INFO - Loaded function: cat_file
+2024-07-24 09:37:43,532 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:37:43,551 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:37:43,733 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:37:43,933 - root - INFO - Loaded function: filesystem
+2024-07-24 09:37:43,949 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:37:43,986 - root - INFO - Loaded function: git_branch
+2024-07-24 09:37:44,006 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:37:44,025 - root - INFO - Loaded function: git_diff
+2024-07-24 09:37:44,042 - root - INFO - Loaded function: git_pull
+2024-07-24 09:37:44,061 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:37:44,070 - root - INFO - Loaded function: git_stash
+2024-07-24 09:37:44,086 - root - INFO - Loaded function: git_status
+2024-07-24 09:37:44,119 - root - INFO - Loaded function: help
+2024-07-24 09:37:44,137 - root - INFO - Loaded function: install_package
+2024-07-24 09:37:44,166 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:37:44,187 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:37:44,357 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:37:44,378 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:37:44,391 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:37:44,411 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:37:44,489 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:37:44,502 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:37:44,519 - root - INFO - Loaded function: search_file
+2024-07-24 09:37:44,536 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:37:44,545 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:37:44,561 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:37:44,582 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 09:37:44,582 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:37:44,582 - root - INFO - Current sys.path: ['C:\\Users\\kordl\\Code\\cybercog\\tools', 'C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:37:45,937 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:38:09,527 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:38:09,528 - root - INFO - Added C:\Users\kordl\Code\cybercog\tools to sys.path
+2024-07-24 09:38:09,528 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:38:10,318 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:38:10,321 - root - INFO - Loaded function: browser
+2024-07-24 09:38:10,323 - root - INFO - Loaded function: calculate
+2024-07-24 09:38:10,325 - root - INFO - Loaded function: cat_file
+2024-07-24 09:38:10,327 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:38:10,332 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:38:10,473 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:38:10,616 - root - INFO - Loaded function: filesystem
+2024-07-24 09:38:10,621 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:38:10,624 - root - INFO - Loaded function: git_branch
+2024-07-24 09:38:10,629 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:38:10,632 - root - INFO - Loaded function: git_diff
+2024-07-24 09:38:10,636 - root - INFO - Loaded function: git_pull
+2024-07-24 09:38:10,639 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:38:10,641 - root - INFO - Loaded function: git_stash
+2024-07-24 09:38:10,644 - root - INFO - Loaded function: git_status
+2024-07-24 09:38:10,646 - root - INFO - Loaded function: help
+2024-07-24 09:38:10,648 - root - INFO - Loaded function: install_package
+2024-07-24 09:38:10,656 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:38:10,662 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:38:10,804 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:38:10,808 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:38:10,811 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:38:10,814 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:38:10,892 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:38:10,896 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:38:10,899 - root - INFO - Loaded function: search_file
+2024-07-24 09:38:10,904 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:38:10,906 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:38:10,909 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:38:10,913 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 09:38:10,913 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:38:10,913 - root - INFO - Current sys.path: ['C:\\Users\\kordl\\Code\\cybercog\\tools', 'C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:38:12,151 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:40:45,434 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:40:45,435 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:40:46,370 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:40:46,374 - root - INFO - Loaded function: browser
+2024-07-24 09:40:46,379 - root - INFO - Loaded function: calculate
+2024-07-24 09:40:46,383 - root - INFO - Loaded function: cat_file
+2024-07-24 09:40:46,385 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:40:46,393 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:40:46,605 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:40:46,796 - root - INFO - Loaded function: filesystem
+2024-07-24 09:40:46,801 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:40:46,805 - root - INFO - Loaded function: git_branch
+2024-07-24 09:40:46,812 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:40:46,816 - root - INFO - Loaded function: git_diff
+2024-07-24 09:40:46,820 - root - INFO - Loaded function: git_pull
+2024-07-24 09:40:46,824 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:40:46,828 - root - INFO - Loaded function: git_stash
+2024-07-24 09:40:46,831 - root - INFO - Loaded function: git_status
+2024-07-24 09:40:46,835 - root - INFO - Loaded function: help
+2024-07-24 09:40:46,839 - root - INFO - Loaded function: install_package
+2024-07-24 09:40:46,849 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:40:46,856 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:40:47,008 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:40:47,013 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:40:47,016 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:40:47,020 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:40:47,095 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:40:47,102 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:40:47,106 - root - INFO - Loaded function: search_file
+2024-07-24 09:40:47,115 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:40:47,118 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:40:47,122 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:40:47,126 - root - INFO - Module calculate was loaded from: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:40:47,126 - root - INFO - Loaded function: calculate from file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:40:47,126 - root - WARNING - Warning: Function calculate is from a different file than its module!
+2024-07-24 09:40:47,126 - root - WARNING - Module file: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:40:47,126 - root - WARNING - Function file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:40:47,126 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:40:47,126 - root - INFO - Python path (sys.path): ['C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:40:48,413 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:41:21,981 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:41:21,982 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:41:22,913 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:41:22,916 - root - INFO - Loaded function: browser
+2024-07-24 09:41:22,919 - root - INFO - Loaded function: calculate
+2024-07-24 09:41:22,922 - root - INFO - Loaded function: cat_file
+2024-07-24 09:41:22,923 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:41:22,930 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:41:23,098 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:41:23,262 - root - INFO - Loaded function: filesystem
+2024-07-24 09:41:23,266 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:41:23,271 - root - INFO - Loaded function: git_branch
+2024-07-24 09:41:23,277 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:41:23,282 - root - INFO - Loaded function: git_diff
+2024-07-24 09:41:23,288 - root - INFO - Loaded function: git_pull
+2024-07-24 09:41:23,292 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:41:23,295 - root - INFO - Loaded function: git_stash
+2024-07-24 09:41:23,299 - root - INFO - Loaded function: git_status
+2024-07-24 09:41:23,303 - root - INFO - Loaded function: help
+2024-07-24 09:41:23,307 - root - INFO - Loaded function: install_package
+2024-07-24 09:41:23,319 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:41:23,326 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:41:23,473 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:41:23,476 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:41:23,479 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:41:23,482 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:41:23,550 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:41:23,554 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:41:23,558 - root - INFO - Loaded function: search_file
+2024-07-24 09:41:23,566 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:41:23,569 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:41:23,572 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:41:23,575 - root - INFO - Module calculate was loaded from: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:41:23,575 - root - INFO - Loaded function: calculate from file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:41:23,575 - root - WARNING - Warning: Function calculate is from a different file than its module!
+2024-07-24 09:41:23,575 - root - WARNING - Module file: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:41:23,575 - root - WARNING - Function file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:41:23,575 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:41:23,575 - root - INFO - Python path (sys.path): ['C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:41:25,073 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:44:00,060 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:44:00,061 - root - INFO - filename calculate.py
+2024-07-24 09:44:00,061 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:01,172 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:44:01,176 - root - INFO - Loaded function: browser
+2024-07-24 09:44:01,179 - root - INFO - Loaded function: calculate
+2024-07-24 09:44:01,183 - root - INFO - Loaded function: cat_file
+2024-07-24 09:44:01,185 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:44:01,192 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:44:01,361 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:44:01,544 - root - INFO - Loaded function: filesystem
+2024-07-24 09:44:01,548 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:44:01,553 - root - INFO - Loaded function: git_branch
+2024-07-24 09:44:01,559 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:44:01,563 - root - INFO - Loaded function: git_diff
+2024-07-24 09:44:01,570 - root - INFO - Loaded function: git_pull
+2024-07-24 09:44:01,575 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:44:01,578 - root - INFO - Loaded function: git_stash
+2024-07-24 09:44:01,581 - root - INFO - Loaded function: git_status
+2024-07-24 09:44:01,584 - root - INFO - Loaded function: help
+2024-07-24 09:44:01,586 - root - INFO - Loaded function: install_package
+2024-07-24 09:44:01,596 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:44:01,603 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:44:01,772 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:44:01,775 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:44:01,778 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:44:01,786 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:44:01,872 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:44:01,878 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:44:01,882 - root - INFO - Loaded function: search_file
+2024-07-24 09:44:01,889 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:44:01,892 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:44:01,896 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:44:01,901 - root - INFO - Module calculate was loaded from: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:01,901 - root - INFO - Loaded function: calculate from file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:44:01,901 - root - WARNING - Warning: Function calculate is from a different file than its module!
+2024-07-24 09:44:01,901 - root - WARNING - Module file: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:01,901 - root - WARNING - Function file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:44:01,901 - root - INFO - filename __pycache__
+2024-07-24 09:44:01,901 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:44:01,901 - root - INFO - Python path (sys.path): ['C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:44:03,384 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:44:57,309 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:44:57,309 - root - INFO - filename calculate.py
+2024-07-24 09:44:57,309 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:58,222 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:44:58,226 - root - INFO - Loaded function: browser
+2024-07-24 09:44:58,230 - root - INFO - Loaded function: calculate
+2024-07-24 09:44:58,233 - root - INFO - Loaded function: cat_file
+2024-07-24 09:44:58,235 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:44:58,242 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:44:58,456 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:44:58,638 - root - INFO - Loaded function: filesystem
+2024-07-24 09:44:58,642 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:44:58,647 - root - INFO - Loaded function: git_branch
+2024-07-24 09:44:58,651 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:44:58,654 - root - INFO - Loaded function: git_diff
+2024-07-24 09:44:58,660 - root - INFO - Loaded function: git_pull
+2024-07-24 09:44:58,665 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:44:58,667 - root - INFO - Loaded function: git_stash
+2024-07-24 09:44:58,670 - root - INFO - Loaded function: git_status
+2024-07-24 09:44:58,673 - root - INFO - Loaded function: help
+2024-07-24 09:44:58,676 - root - INFO - Loaded function: install_package
+2024-07-24 09:44:58,684 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:44:58,692 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:44:58,845 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:44:58,850 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:44:58,854 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:44:58,859 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:44:58,936 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:44:58,941 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:44:58,945 - root - INFO - Loaded function: search_file
+2024-07-24 09:44:58,951 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:44:58,953 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:44:58,958 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:44:58,961 - root - INFO - Module calculate was loaded from: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:58,961 - root - INFO - Loaded function: calculate from file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:44:58,961 - root - WARNING - Warning: Function calculate is from a different file than its module!
+2024-07-24 09:44:58,961 - root - WARNING - Module file: C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:44:58,961 - root - WARNING - Function file: c:\users\kordl\code\webwright\lib\function_wrapper.py
+2024-07-24 09:44:58,961 - root - INFO - filename __pycache__
+2024-07-24 09:44:58,961 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:44:58,961 - root - INFO - Python path (sys.path): ['C:\\Users\\kordl\\Code\\cybercog', 'C:\\Users\\kordl\\miniconda3\\python311.zip', 'C:\\Users\\kordl\\miniconda3\\DLLs', 'C:\\Users\\kordl\\miniconda3\\Lib', 'C:\\Users\\kordl\\miniconda3', 'C:\\Users\\kordl\\miniconda3\\Lib\\site-packages', 'c:\\users\\kordl\\code\\webwright', 'c:\\users\\kordl\\code\\prelude\\port', 'C:\\Users\\kordl\\Code\\cybercog']
+2024-07-24 09:46:07,499 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:48:41,254 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:48:41,255 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:48:42,291 - root - INFO - Loaded function: apply_code_diff_to_file
+2024-07-24 09:48:42,295 - root - INFO - Loaded function: browser
+2024-07-24 09:48:42,298 - root - INFO - Loaded function: calculate
+2024-07-24 09:48:42,301 - root - INFO - Loaded function: cat_file
+2024-07-24 09:48:42,304 - root - INFO - Loaded function: change_working_directory
+2024-07-24 09:48:42,310 - root - INFO - Loaded function: clear_screen
+2024-07-24 09:48:42,476 - root - INFO - Loaded function: create_github_repo
+2024-07-24 09:48:42,638 - root - INFO - Loaded function: filesystem
+2024-07-24 09:48:42,645 - root - INFO - Loaded function: get_project_files
+2024-07-24 09:48:42,650 - root - INFO - Loaded function: git_branch
+2024-07-24 09:48:42,655 - root - INFO - Loaded function: git_commit_and_push
+2024-07-24 09:48:42,658 - root - INFO - Loaded function: git_diff
+2024-07-24 09:48:42,662 - root - INFO - Loaded function: git_pull
+2024-07-24 09:48:42,666 - root - INFO - Loaded function: git_pull_request
+2024-07-24 09:48:42,668 - root - INFO - Loaded function: git_stash
+2024-07-24 09:48:42,671 - root - INFO - Loaded function: git_status
+2024-07-24 09:48:42,673 - root - INFO - Loaded function: help
+2024-07-24 09:48:42,676 - root - INFO - Loaded function: install_package
+2024-07-24 09:48:42,684 - root - INFO - Loaded function: manage_app_container
+2024-07-24 09:48:42,691 - root - INFO - Loaded function: manage_github_issues
+2024-07-24 09:48:42,858 - root - INFO - Loaded function: reverse_code_diff_on_file
+2024-07-24 09:48:42,864 - root - INFO - Loaded function: run_python_file
+2024-07-24 09:48:42,867 - root - INFO - Loaded function: run_python_file_non_blocking
+2024-07-24 09:48:42,873 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:48:42,966 - root - INFO - Loaded function: scan_html_repository
+2024-07-24 09:48:42,972 - root - INFO - Loaded function: scan_repository
+2024-07-24 09:48:42,980 - root - INFO - Loaded function: search_file
+2024-07-24 09:48:42,988 - root - INFO - Loaded function: set_api_config_dialog
+2024-07-24 09:48:42,990 - root - INFO - Loaded function: set_github_token
+2024-07-24 09:48:42,994 - root - INFO - Loaded function: write_code_to_file_patch
+2024-07-24 09:48:42,998 - root - ERROR - Error loading module calculate: name 'types' is not defined
+2024-07-24 09:48:42,998 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:48:44,577 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:49:50,632 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:49:50,632 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:49:50,653 - root - ERROR - Error loading module calculate: name 'types' is not defined
+2024-07-24 09:49:50,653 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:49:51,784 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:50:59,014 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:50:59,014 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:50:59,021 - root - INFO - Successfully loaded module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:50:59,021 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 09:50:59,021 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:51:00,177 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:51:09,058 - root - INFO - Initial length of messages: 1
+2024-07-24 09:51:09,058 - root - INFO - Total characters in all messages: 13
+2024-07-24 09:51:16,333 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:51:16,337 - root - INFO - Anthropic response: Message(id='msg_01At42jGVRTCv2GEwAC1BCiL', content=[TextBlock(text='<thinking>\nThe calculate tool is relevant for this request. It takes a single required parameter:\n- expression: The mathematical expression to evaluate\n\nThe user provided "2+2" which can be used directly as the value for the expression parameter. Since all required parameters are available, we can proceed with the calculate tool.\n</thinking>', type='text'), ToolUseBlock(id='toolu_018QLb1hbJm52WrZrDL7859C', input={'expression': '2+2'}, name='calculate', type='tool_use')], model='claude-3-opus-20240229', role='assistant', stop_reason='tool_use', stop_sequence=None, type='message', usage=Usage(input_tokens=788, output_tokens=121))
+2024-07-24 09:51:16,337 - root - INFO - Extracted function calls: [{'name': 'calculate', 'arguments': {'expression': '2+2'}, 'id': 'toolu_018QLb1hbJm52WrZrDL7859C'}]
+2024-07-24 09:51:16,337 - root - INFO - Extracted text content: <thinking>
+The calculate tool is relevant for this request. It takes a single required parameter:
+- expression: The mathematical expression to evaluate
+
+The user provided "2+2" which can be used directly as the value for the expression parameter. Since all required parameters are available, we can proceed with the calculate tool.
+</thinking>
+2024-07-24 09:51:16,442 - root - INFO - Calling calculate with arguments {'expression': '2+2'}
+2024-07-24 09:51:19,401 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:51:19,404 - root - INFO - Anthropic response: Message(id='msg_01EbXaX4T6QoaNGeVntTH8qB', content=[TextBlock(text='Therefore, the result of calculating 2+2 is \\(4\\).', type='text')], model='claude-3-opus-20240229', role='assistant', stop_reason='end_turn', stop_sequence=None, type='message', usage=Usage(input_tokens=930, output_tokens=21))
+2024-07-24 09:51:19,404 - root - INFO - Extracted function calls: []
+2024-07-24 09:51:19,405 - root - INFO - Extracted text content: <thinking>
+The calculate tool is relevant for this request. It takes a single required parameter:
+- expression: The mathematical expression to evaluate
+
+The user provided "2+2" which can be used directly as the value for the expression parameter. Since all required parameters are available, we can proceed with the calculate tool.
+</thinking>Therefore, the result of calculating 2+2 is \(4\).
+2024-07-24 09:53:24,826 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:53:24,826 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:53:24,834 - root - INFO - Successfully loaded module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:53:24,834 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 09:53:24,834 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:53:26,080 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:53:30,235 - root - INFO - Initial length of messages: 1
+2024-07-24 09:53:30,235 - root - INFO - Total characters in all messages: 11
+2024-07-24 09:53:38,299 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:53:38,302 - root - INFO - Anthropic response: Message(id='msg_01AnXPr4pbBLnqAADgFsVyLH', content=[TextBlock(text='<thinking>\nThe provided tools include a calculate() function which looks like it can handle this 2+2 calculation. To use it, I just need to provide an "expression" parameter with the mathematical expression as a string.\n\nSince the user\'s request directly provides the mathematical expression "2+2", I have all the required information to call the calculate tool. No other tools are needed.\n</thinking>', type='text'), ToolUseBlock(id='toolu_01WFFQj4s4wotpv1q5WH9uqo', input={'expression': '2+2'}, name='calculate', type='tool_use')], model='claude-3-opus-20240229', role='assistant', stop_reason='tool_use', stop_sequence=None, type='message', usage=Usage(input_tokens=790, output_tokens=137))
+2024-07-24 09:53:38,302 - root - INFO - Extracted function calls: [{'name': 'calculate', 'arguments': {'expression': '2+2'}, 'id': 'toolu_01WFFQj4s4wotpv1q5WH9uqo'}]
+2024-07-24 09:53:38,302 - root - INFO - Extracted text content: <thinking>
+The provided tools include a calculate() function which looks like it can handle this 2+2 calculation. To use it, I just need to provide an "expression" parameter with the mathematical expression as a string.
+
+Since the user's request directly provides the mathematical expression "2+2", I have all the required information to call the calculate tool. No other tools are needed.
+</thinking>
+2024-07-24 09:53:38,384 - root - INFO - Calling calculate with arguments {'expression': '2+2'}
+2024-07-24 09:53:41,472 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:53:41,474 - root - INFO - Anthropic response: Message(id='msg_01FRrsDSa43CWSJ2RgsLAJEH', content=[TextBlock(text='So, 2+2 = \\(4\\).', type='text')], model='claude-3-opus-20240229', role='assistant', stop_reason='end_turn', stop_sequence=None, type='message', usage=Usage(input_tokens=948, output_tokens=17))
+2024-07-24 09:53:41,474 - root - INFO - Extracted function calls: []
+2024-07-24 09:53:41,475 - root - INFO - Extracted text content: <thinking>
+The provided tools include a calculate() function which looks like it can handle this 2+2 calculation. To use it, I just need to provide an "expression" parameter with the mathematical expression as a string.
+
+Since the user's request directly provides the mathematical expression "2+2", I have all the required information to call the calculate tool. No other tools are needed.
+</thinking>So, 2+2 = \(4\).
+2024-07-24 09:59:16,910 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:59:16,910 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:59:16,915 - root - INFO - Successfully loaded module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 09:59:16,915 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 09:59:16,915 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 09:59:18,267 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:59:24,591 - root - INFO - Initial length of messages: 1
+2024-07-24 09:59:24,591 - root - INFO - Total characters in all messages: 11
+2024-07-24 09:59:34,038 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:59:34,040 - root - INFO - Anthropic response: Message(id='msg_014kDrDYJEhEkfcpxixSpwJZ', content=[TextBlock(text='<thinking>\nThe user has asked a simple math question: "what\'s 2+2?". To answer this, the calculate tool would be appropriate, as it can evaluate mathematical expressions.\n\nRequired parameters for calculate:\nexpression: The mathematical expression to evaluate. In this case, the user has provided the expression directly in their question: "2+2".\n\nThe calculate tool has all the required parameters to answer the user\'s question, so I can proceed with calling it.\n</thinking>', type='text'), ToolUseBlock(id='toolu_01JQJKFKumY7eFeGXHzzRSs1', input={'expression': '2+2'}, name='calculate', type='tool_use')], model='claude-3-opus-20240229', role='assistant', stop_reason='tool_use', stop_sequence=None, type='message', usage=Usage(input_tokens=790, output_tokens=154))
+2024-07-24 09:59:34,040 - root - INFO - Extracted function calls: [{'name': 'calculate', 'arguments': {'expression': '2+2'}, 'id': 'toolu_01JQJKFKumY7eFeGXHzzRSs1'}]
+2024-07-24 09:59:34,040 - root - INFO - Extracted text content: <thinking>
+The user has asked a simple math question: "what's 2+2?". To answer this, the calculate tool would be appropriate, as it can evaluate mathematical expressions.
+
+Required parameters for calculate:
+expression: The mathematical expression to evaluate. In this case, the user has provided the expression directly in their question: "2+2".
+
+The calculate tool has all the required parameters to answer the user's question, so I can proceed with calling it.
+</thinking>
+2024-07-24 09:59:34,054 - root - INFO - Calling calculate with arguments {'expression': '2+2'}
+2024-07-24 09:59:36,291 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 09:59:36,294 - root - INFO - Anthropic response: Message(id='msg_013ZUEZqWdikPhqCefMgvQZC', content=[TextBlock(text='Therefore, the result of 2+2 is \\(4\\).', type='text')], model='claude-3-opus-20240229', role='assistant', stop_reason='end_turn', stop_sequence=None, type='message', usage=Usage(input_tokens=965, output_tokens=20))
+2024-07-24 09:59:36,294 - root - INFO - Extracted function calls: []
+2024-07-24 09:59:36,294 - root - INFO - Extracted text content: <thinking>
+The user has asked a simple math question: "what's 2+2?". To answer this, the calculate tool would be appropriate, as it can evaluate mathematical expressions.
+
+Required parameters for calculate:
+expression: The mathematical expression to evaluate. In this case, the user has provided the expression directly in their question: "2+2".
+
+The calculate tool has all the required parameters to answer the user's question, so I can proceed with calling it.
+</thinking>Therefore, the result of 2+2 is \(4\).
+2024-07-24 10:00:56,596 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 10:00:56,596 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 10:00:56,602 - root - INFO - Successfully loaded module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 10:00:56,602 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 10:00:56,602 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 10:00:57,807 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:00:59,826 - root - INFO - Initial length of messages: 1
+2024-07-24 10:00:59,826 - root - INFO - Total characters in all messages: 11
+2024-07-24 10:01:07,632 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:01:07,636 - root - INFO - Anthropic response: Message(id='msg_013JfEzRL33gytwYG4SKbFZM', content=[TextBlock(text='<thinking>\nThe user is asking a simple math question - "what\'s 2+2?". This can be answered using the calculate tool.\n\nTo use the calculate tool, we need to provide an expression parameter with the mathematical expression to evaluate. In this case, the user provided the full expression directly in their query: "2+2".\n\nSince we have the complete mathematical expression needed, we can proceed with calling the calculate tool without needing any additional information from the user.\n</thinking>', type='text'), ToolUseBlock(id='toolu_01Qkz8E12AtY69xjM9R7RgwE', input={'expression': '2+2'}, name='calculate', type='tool_use')], model='claude-3-opus-20240229', role='assistant', stop_reason='tool_use', stop_sequence=None, type='message', usage=Usage(input_tokens=790, output_tokens=155))
+2024-07-24 10:01:07,636 - root - INFO - Extracted function calls: [{'name': 'calculate', 'arguments': {'expression': '2+2'}, 'id': 'toolu_01Qkz8E12AtY69xjM9R7RgwE'}]
+2024-07-24 10:01:07,636 - root - INFO - Extracted text content: <thinking>
+The user is asking a simple math question - "what's 2+2?". This can be answered using the calculate tool.
+
+To use the calculate tool, we need to provide an expression parameter with the mathematical expression to evaluate. In this case, the user provided the full expression directly in their query: "2+2".
+
+Since we have the complete mathematical expression needed, we can proceed with calling the calculate tool without needing any additional information from the user.
+</thinking>
+2024-07-24 10:01:07,719 - root - INFO - Calling calculate with arguments {'expression': '2+2'}
+2024-07-24 10:01:10,612 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:01:10,616 - root - INFO - Anthropic response: Message(id='msg_01Qe3KYDoovsYr2xP6foth6F', content=[TextBlock(text='So \\(2+2 = 4\\).', type='text')], model='claude-3-opus-20240229', role='assistant', stop_reason='end_turn', stop_sequence=None, type='message', usage=Usage(input_tokens=966, output_tokens=16))
+2024-07-24 10:01:10,616 - root - INFO - Extracted function calls: []
+2024-07-24 10:01:10,616 - root - INFO - Extracted text content: <thinking>
+The user is asking a simple math question - "what's 2+2?". This can be answered using the calculate tool.
+
+To use the calculate tool, we need to provide an expression parameter with the mathematical expression to evaluate. In this case, the user provided the full expression directly in their query: "2+2".
+
+Since we have the complete mathematical expression needed, we can proceed with calling the calculate tool without needing any additional information from the user.
+</thinking>So \(2+2 = 4\).
+2024-07-24 10:02:27,569 - root - INFO - Loading functions from directory: C:\Users\kordl\Code\cybercog\tools
+2024-07-24 10:02:27,569 - root - INFO - Attempting to load module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 10:02:27,575 - root - INFO - Successfully loaded module: calculate from C:\Users\kordl\Code\cybercog\tools\calculate.py
+2024-07-24 10:02:27,575 - root - INFO - Loaded function: calculate from calculate
+2024-07-24 10:02:27,575 - root - INFO - Finished loading functions from C:\Users\kordl\Code\cybercog\tools
+2024-07-24 10:02:28,731 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:02:31,877 - root - INFO - Initial length of messages: 1
+2024-07-24 10:02:31,877 - root - INFO - Total characters in all messages: 11
+2024-07-24 10:02:42,862 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:02:42,864 - root - INFO - Anthropic response: Message(id='msg_01Pmx5ngWSUeMfhrxKx8te9J', content=[TextBlock(text='<thinking>\nThe user has asked a simple math question: "what\'s 2+2?". To answer this, the `calculate` tool seems most relevant. It takes a mathematical expression as input and returns the calculated result.\n\nLooking at the required parameters for `calculate`:\n- `expression`: This would be the mathematical expression "2+2". The user has directly provided this in their question.\n\nSince the required parameter is available, I can proceed with calling the `calculate` tool to answer the user\'s question. No other tools are needed.\n</thinking>', type='text'), ToolUseBlock(id='toolu_01AxhVTcfR6WY4Zf6UF8ePmJ', input={'expression': '2+2'}, name='calculate', type='tool_use')], model='claude-3-opus-20240229', role='assistant', stop_reason='tool_use', stop_sequence=None, type='message', usage=Usage(input_tokens=790, output_tokens=170))
+2024-07-24 10:02:42,864 - root - INFO - Extracted function calls: [{'name': 'calculate', 'arguments': {'expression': '2+2'}, 'id': 'toolu_01AxhVTcfR6WY4Zf6UF8ePmJ'}]
+2024-07-24 10:02:42,865 - root - INFO - Extracted text content: <thinking>
+The user has asked a simple math question: "what's 2+2?". To answer this, the `calculate` tool seems most relevant. It takes a mathematical expression as input and returns the calculated result.
+
+Looking at the required parameters for `calculate`:
+- `expression`: This would be the mathematical expression "2+2". The user has directly provided this in their question.
+
+Since the required parameter is available, I can proceed with calling the `calculate` tool to answer the user's question. No other tools are needed.
+</thinking>
+2024-07-24 10:02:42,931 - root - INFO - Calling calculate with arguments {'expression': '2+2'}
+2024-07-24 10:02:45,526 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-07-24 10:02:45,529 - root - INFO - Anthropic response: Message(id='msg_01MTCME2SpmTb1HbwDtpaGCj', content=[TextBlock(text='Therefore, 2+2 \\(= 4\\).', type='text')], model='claude-3-opus-20240229', role='assistant', stop_reason='end_turn', stop_sequence=None, type='message', usage=Usage(input_tokens=981, output_tokens=18))
+2024-07-24 10:02:45,529 - root - INFO - Extracted function calls: []
+2024-07-24 10:02:45,529 - root - INFO - Extracted text content: <thinking>
+The user has asked a simple math question: "what's 2+2?". To answer this, the `calculate` tool seems most relevant. It takes a mathematical expression as input and returns the calculated result.
+
+Looking at the required parameters for `calculate`:
+- `expression`: This would be the mathematical expression "2+2". The user has directly provided this in their question.
+
+Since the required parameter is available, I can proceed with calling the `calculate` tool to answer the user's question. No other tools are needed.
+</thinking>Therefore, 2+2 \(= 4\).
